@@ -11,7 +11,7 @@ public class EmprestimosAndamento implements ICalculoPontos {
     @Override
     public int calcular(Proposta proposta) {
         if (buscarEmprestimosEmAndamento()) {
-            return -80;
+            return -300;
         }
 
         return 80;

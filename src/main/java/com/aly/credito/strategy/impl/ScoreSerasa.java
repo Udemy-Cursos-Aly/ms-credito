@@ -14,7 +14,7 @@ public class ScoreSerasa implements ICalculoPontos {
     public int calcular(Proposta proposta) {
         int scoreDoUsuario = score();
         if (scoreDoUsuario <= 200) {
-            return -30;
+            return -500;
         }
 
         return 150;
